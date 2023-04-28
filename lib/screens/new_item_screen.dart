@@ -113,7 +113,7 @@ class _NewItemScreenState extends State<NewItemScreen> {
                         items: [
                           for (final item in shoppingListData.entries)
                             DropdownMenuItem(
-                                value: _selectedCategory,
+                                value: item.value,
                                 child: Row(children: [
                                   Container(
                                     width: 16,
